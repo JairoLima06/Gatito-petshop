@@ -1,30 +1,28 @@
-# Gatito Petshop - Dashboard de Vendas e Clientes
+# Relatório de Vendas
 
-## Descrição
-Dashboard interativo desenvolvido no **Power BI** para a empresa fictícia *Gatito Petshop*.  
-A solução possibilita acompanhar métricas de vendas, perfil de clientes, produtos mais relevantes e análise segmentada por marca.
+##  Descrição
+Projeto de dashboard desenvolvido no **Power BI** para análise de vendas de uma rede varejista.  
+O relatório apresenta métricas como faturamento total, ticket médio e ranking de filiais, permitindo uma visão clara do desempenho comercial.
 
-## Objetivo
-Fornecer uma ferramenta visual e intuitiva para **analisar o desempenho comercial**, entender o **perfil dos clientes** e apoiar a tomada de decisões estratégicas, como a **expansão para novas lojas**.
+##  Objetivo
+Oferecer uma ferramenta interativa para acompanhamento das vendas, auxiliando na tomada de decisão sobre produtos e filiais de maior relevância.
 
-##  Tecnologias e técnicas utilizadas
-- **Power BI Desktop**
-- **DAX** para criação de medidas (faturamento, ticket médio, métricas de clientes)
-- Modelagem de dados baseada em informações de vendas e clientes
-- Segmentação de dados por filtros dinâmicos (ex: marca, produto)
+##  Tecnologias utilizadas
+- Power BI Desktop  
+- DAX para criação de medidas (faturamento, ticket médio, total de produtos)  
+- Excel como fonte de dados (`vendas.xlsx`)  
 
-##  Principais análises
-- **Métricas de vendas** → faturamento total, ticket médio e evolução  
-- **Perfil de clientes** → análise de comportamento e segmentação  
-- **Visualização de produtos** → itens mais vendidos e comparativo entre marcas  
-- **Tomada de decisão estratégica** → insights para abertura de novas unidades  
+##  Principais indicadores
+- **Faturamento Total:** R$ 42 Mi  
+- **Total de Produtos:** 120  
+- **Ticket Médio:** R$ 191,49  
+- **Ranking de Filiais** com base no faturamento  
 
 ##  Exemplo do dashboard
-*(inserir preview aqui quando disponível)*
+![Dashboard](./images/preview.png)
 
-##  Estrutura do projeto
-- `reports/` → relatório em Power BI (`Projeto Alura.pbix`)  
-- `images/` → captura do dashboard (`preview.png`)  
-- `README.md` → explicação detalhada do projeto  
-
----
+##  Estrutura
+- `data/` → base de dados (Excel)  
+- `reports/` → relatório em Power BI  
+- `images/` → captura do dashboard  
+- `README.md` → documentação do projeto  
