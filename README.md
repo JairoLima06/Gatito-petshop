@@ -1,28 +1,30 @@
-# Relatório de Vendas
+# Gatito Petshop - Dashboard de Vendas e Clientes
 
 ##  Descrição
-Projeto de dashboard desenvolvido no **Power BI** para análise de vendas de uma rede varejista.  
-O relatório apresenta métricas como faturamento total, ticket médio e ranking de filiais, permitindo uma visão clara do desempenho comercial.
+Projeto de dashboard interativo desenvolvido no **Power BI** para a empresa fictícia *Gatito Petshop*.  
+A solução permite acompanhar métricas de vendas, perfil de clientes, análise de produtos e segmentação por marca.
 
 ##  Objetivo
-Oferecer uma ferramenta interativa para acompanhamento das vendas, auxiliando na tomada de decisão sobre produtos e filiais de maior relevância.
+Apoiar decisões estratégicas como:  
+- Expansão de lojas  
+- Identificação de clientes mais relevantes  
+- Produtos de maior giro e rentabilidade  
 
 ##  Tecnologias utilizadas
 - Power BI Desktop  
-- DAX para criação de medidas (faturamento, ticket médio, total de produtos)  
-- Excel como fonte de dados (`vendas.xlsx`)  
+- DAX para cálculos e medidas  
+- Modelagem de dados e filtros interativos  
 
-##  Principais indicadores
-- **Faturamento Total:** R$ 42 Mi  
-- **Total de Produtos:** 120  
-- **Ticket Médio:** R$ 191,49  
-- **Ranking de Filiais** com base no faturamento  
+##  Principais análises
+- **Métricas de vendas**: faturamento total, ticket médio e evolução  
+- **Perfil de clientes**: segmentação e comportamento  
+- **Produtos e marcas**: desempenho comparativo  
+- **Expansão estratégica**: suporte a abertura de novas unidades  
 
 ##  Exemplo do dashboard
-![Dashboard](./images/preview.png)
+*(Inserir preview aqui quando disponível)*
 
-##  Estrutura
-- `data/` → base de dados (Excel)  
+## 📁 Estrutura
 - `reports/` → relatório em Power BI  
 - `images/` → captura do dashboard  
 - `README.md` → documentação do projeto  
